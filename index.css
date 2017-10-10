@@ -22,19 +22,21 @@ ol
 
 ul
 {
-    margin-left: 0px;
-    padding-left: 0px;
+    margin-left: 0;
+    padding-left: 0;
     list-style: none;
 }
+
 ul li:before
 {
-    content: "– ";
+    content: '– ';
 }
 
 .header.source
 {
     font-weight: lighter;
 }
+
 .header.title
 {
     font-weight: bolder;
@@ -45,6 +47,7 @@ ul li:before
     font-family: 'PT Sans', sans-serif;
     text-align: left;
 }
+
 .post-footer-table
 {
     font-family: 'PT Sans', sans-serif;
@@ -66,6 +69,7 @@ article
 {
     border: thin solid #111;
 }
+
 .article-table-cell.th
 {
     background-color: #d5d5d5;
@@ -77,10 +81,13 @@ article
     font-family: 'Fira Sans', sans-serif;
 }
 
-.comments {
+.comments
+{
     font-size: 110%;
 }
-.comments.comment {
+
+.comments.comment
+{
     padding-top: 1%;
     padding-bottom: 1%;
 }
